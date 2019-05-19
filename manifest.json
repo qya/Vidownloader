@@ -1,0 +1,37 @@
+{
+    
+    "background": {"scripts": ["js/background.js"]},
+    "version": "2.4.8",
+    "icons": {
+        "128": "i/icon_128.png",
+        "64": "i/icon_64.png",
+        "48": "i/icon_48.png",
+        "32": "i/icon_32.png",
+        "16": "i/icon_16.png"
+    },
+    "manifest_version": 2,
+    "name": "ViDownloader Social Media",
+    "short_name": "ViDownloader",
+    "description": "Best FB URL Video Downloader Mp3 and Mp4 for FB Download. This Addon allow download Video from facebook fb with one click. You can convert and download video from Facebook in m4a, mp3, mp4 sd and mp4 hd quality. Convert fb video in just one step.",
+      "browser_action": {
+       "default_popup": "popup.html",
+       "default_title": "FB Browser Extension"
+      },
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "matches": [
+                "*://*.facebook.com/*"
+            ],
+            "js": [ "js/jquery-3.2.1.min.js", "js/content.js" ],
+            "css": [ "css/style.css"]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "storage",
+        "*://*.facebook.com/*"
+    ],
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+}
