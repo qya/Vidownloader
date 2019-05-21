@@ -18,6 +18,8 @@ datas =  { "id": request.greeting, "name": request.name,"playback": request.play
   if (!fbarray.some(e => e.id === request.greeting)) {
   	fbarray.push(datas);
   }
+  i = fbarray.length+'+';
+  chrome.browserAction.setBadgeText({text:i?""+i:""})
   // sendResponse({response: "Response from background script to capture FB ID"});
 }
 
