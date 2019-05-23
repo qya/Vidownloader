@@ -41,6 +41,9 @@ function zbytesToSize(bytes, decimals = 2) {
     return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
 };
 function zcvtosize(data){
+    if(!data){
+    return '';
+    }
 	return zbytesToSize(((71 * data.replace(/"/g,'')) * 1000 ) / 2);
 }
 function checkFullscreen(){
