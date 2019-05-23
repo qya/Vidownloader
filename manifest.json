@@ -1,7 +1,7 @@
 {
     
     "background": {"scripts": ["js/background.js"]},
-    "version": "2.4.8",
+    "version": "2.4.9",
     "icons": {
         "128": "i/icon_128.png",
         "64": "i/icon_64.png",
