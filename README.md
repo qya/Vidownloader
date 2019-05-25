@@ -3,7 +3,7 @@
 
 <p align="center">
   </br></br>
-  <a href="#">
+  <a href="https://chrome.google.com/webstore/detail/vidownloader-social-media/djibonjlpiicffamjbhlikamjlkgnopd">
     <img src="https://i.imgur.com/B0i5sn3.png" alt="Chrome Web Store"></a>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/vidownloader/">
     <img src="https://i.imgur.com/dvof8rG.png" alt="Firefox add-ons"></a>
