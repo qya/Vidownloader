@@ -861,7 +861,7 @@ lint-staged@^7.2.0:
     is-windows "^1.0.2"
     jest-validate "^23.5.0"
     listr "^0.14.1"
-    lodash "^4.17.5"
+    lodash "^4.17.13"
     log-symbols "^2.2.0"
     micromatch "^3.1.8"
     npm-which "^3.0.1"
